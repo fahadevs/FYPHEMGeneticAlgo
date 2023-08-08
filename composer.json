@@ -1,0 +1,5 @@
+{
+    "require": {
+        "phpexperts/php-evolver": "^1.0"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "name": "phpexperts/php-evolver",
+    "description": "A generic PHP Genetic Algorithm Framework.",
+    "keywords": [
+        "GA",
+        "Genetic Algorithm Framework",
+        "AI",
+        "Artifical Intelligence"
+    ],
+    "homepage": "https://github.com/phpexpertsinc/php-evolver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Coles",
+            "email": "peterdcoles@gmail.com",
+            "homepage": "https://petercoles.com",
+            "role": "Creator"
+        },
+        {
+            "name": "Theodore R. Smith",
+            "email": "theodore@phpexperts.pro",
+            "homepage": "https://www.phpexperts.pro/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "tightenco/collect": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPExperts\\GAO\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PHPExperts\\GAO\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
